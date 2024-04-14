@@ -1,0 +1,49 @@
+version: 0.2
+
+
+phases:
+  install:
+    commands:
+      - echo Entered the install phase...
+      - apt-get update -y
+
+    finally:
+      - echo This always runs even if the update or install command fails
+
+  build:
+    commands:
+      - echo Entered the build phase...
+      - echo Build started on `date`
+
+    finally:
+      - echo This always runs even if the install command fails
+  post_build:
+    commands:
+      - echo Entered the post_build phase...
+      - echo Build completed on `date`
+
+
+artifacts:
+  files:
+    - admin
+    - asset
+    - upload
+    - vendor
+    - admin_login.php
+    - appspec.yml
+    - composer.json
+    - composer.lock
+    - database_connection.php
+    - footer.php
+    - function.php
+    - header.php
+    - index.php
+    - issue_book_details.php
+    - logout.php
+    - profile.php
+    - search_book.php
+    - user_login.php
+    - user_registration.php
+    - verify.php
+
+
