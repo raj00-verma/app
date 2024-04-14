@@ -25,10 +25,10 @@ phases:
 
 artifacts:
   files:
-    - admin
-    - asset
-    - upload
-    - vendor
+    - admin/
+    - asset/
+    - upload/
+    - vendor/
     - admin_login.php
     - appspec.yml
     - composer.json
