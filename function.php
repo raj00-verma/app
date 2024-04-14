@@ -4,7 +4,7 @@
 
 function base_url()
 {
-	return 'http://localhost/tutorial/library_management_system/';
+	return 'http://3.92.186.136/app/';
 }
 
 function is_admin_login()
