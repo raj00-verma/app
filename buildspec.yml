@@ -25,25 +25,10 @@ phases:
 
 artifacts:
   files:
-    - admin/
-    - asset/
-    - upload/
-    - vendor/
-    - admin_login.php
     - appspec.yml
-    - composer.json
-    - composer.lock
-    - database_connection.php
-    - footer.php
-    - function.php
-    - header.php
-    - index.php
-    - issue_book_details.php
-    - logout.php
-    - profile.php
-    - search_book.php
-    - user_login.php
-    - user_registration.php
-    - verify.php
+    - index.html
+    - scripts/install_dependencies.sh
+    - scripts/start_server.sh
+    - scripts/stop_server.sh
 
 
